@@ -46,14 +46,13 @@ export default function About() {
             {/* Bio text */}
             <div className="md:col-span-2 space-y-5 text-stone-600 leading-relaxed">
               <p>
-                UX Researcher driving 0 to 1 product decisions for AI and spatial computing products,
-                with experience across B2B and B2C.
+                UX Researcher with 4 years of experience studying how users interact with emerging AI technology and shaping novel product experiences.
               </p>
               <p>
-                [Add more about your background, how you got here, and what makes your approach distinctive.]
+                I currently lead the UX Research practice at Niantic Spatial, where I advocate for keeping the customer and end user at the core of product and company decisions. I enjoy working in fast-paced environments and partnering closely with cross functional partners to tailor studies to specific goals. I look for creative ways to research emerging technology, always aiming to balance velocity and rigor. I use frameworks like Critical User Journeys to bring structure to ambiguous problem spaces, whether that&apos;s defining core requirements for a new product category or evaluating what is &ldquo;good enough&rdquo; for an established product area.
               </p>
               <p>
-                Outside of work, I&apos;m usually [personal interest], [personal interest], or [personal interest].
+                I have always been interested in listening to people and telling their stories, before through journalism and now through building product strategies that are centered on a deep understanding of the user.
               </p>
 
               <div className="pt-4">

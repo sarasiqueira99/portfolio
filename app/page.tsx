@@ -37,15 +37,15 @@ export default function Home() {
         <section className="max-w-5xl mx-auto px-8 pt-20 pb-20">
           <h1
             className="leading-snug mb-6"
-            style={{ fontFamily: 'var(--font-lora), Georgia, serif', fontWeight: 400, color: '#2d4a3c', fontSize: '2.34rem' }}
+            style={{ fontFamily: 'var(--font-lora), Georgia, serif', fontWeight: 400, color: '#2d4a3c', fontSize: '2rem' }}
           >
             Hi, I&apos;m Sara.
           </h1>
           <p
-            className="text-4xl sm:text-5xl leading-[1.1] mb-8 max-w-3xl text-stone-700"
-            style={{ fontFamily: 'var(--font-lora), Georgia, serif', fontWeight: 400 }}
+            className="leading-[1.2] mb-8 max-w-3xl text-stone-700"
+            style={{ fontFamily: 'var(--font-lora), Georgia, serif', fontWeight: 400, fontSize: '2.34rem' }}
           >
-            I drive 0 to 1 product decisions for AI and spatial computing.
+            UX Researcher with 4 years of experience studying how users interact with emerging AI technology and shaping novel product experiences.
           </p>
           <div className="flex gap-4 flex-wrap">
             <Link
