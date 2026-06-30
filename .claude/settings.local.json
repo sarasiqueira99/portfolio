@@ -9,7 +9,16 @@
       "Bash(/usr/local/opt/node@20/bin/node --version)",
       "Bash(/usr/local/opt/node@20/bin/npx --version)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "WebSearch",
+      "WebFetch(domain:www.sitebuilderreport.com)",
+      "WebFetch(domain:www.userinterviews.com)",
+      "WebFetch(domain:www.casestudy.club)",
+      "Bash(xargs sed -i '' 's/#1e3a2f/#2d4a3c/g')",
+      "Bash(cp \"/Users/sarasiqueira/Downloads/Resume___Sara \\(9\\).pdf\" /Users/sarasiqueira/Desktop/portfolio/public/resume.pdf)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
     ]
   }
 }

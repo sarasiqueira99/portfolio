@@ -32,10 +32,10 @@ function LoginForm() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-stone-50">
+    <div className="min-h-screen flex items-center justify-center bg-[#f7f5f0]">
       <div className="w-full max-w-sm px-8">
-        <h1 className="text-2xl font-light tracking-wide text-stone-800 mb-2">Sara Siqueira</h1>
-        <p className="text-stone-500 text-sm mb-10">UX Research Portfolio</p>
+        <h1 className="text-3xl text-stone-900 mb-2" style={{ fontFamily: 'var(--font-lora), Georgia, serif', fontWeight: 400 }}>Sara Siqueira</h1>
+        <p className="text-stone-400 text-xs uppercase tracking-widest mb-12">UX Research Portfolio</p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <input
