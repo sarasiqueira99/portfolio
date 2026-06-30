@@ -45,7 +45,7 @@ export default function Home() {
             className="leading-[1.2] mb-8 max-w-3xl text-stone-700"
             style={{ fontFamily: 'var(--font-lora), Georgia, serif', fontWeight: 400, fontSize: '2.34rem' }}
           >
-            UX Researcher with 4 years of experience studying how users interact with emerging AI technology and shaping novel product experiences.
+            UX Researcher driven by understanding how people interact with emerging AI and shaping novel products that change how we engage with the world.
           </p>
           <div className="flex gap-4 flex-wrap">
             <Link
