@@ -8,6 +8,7 @@ const projects: Project[] = [
     description: 'Generative research that turned early-stage geospatial AI into a validated product vision and go-to-market plan.',
     tags: ['Generative Research', 'Geospatial AI', 'Product Strategy'],
     placeholder: 'bg-stone-400',
+    image: '/ai-casestudy.png',
   },
   {
     slug: 'user-centric-kpis',
