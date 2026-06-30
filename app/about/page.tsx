@@ -38,9 +38,12 @@ export default function About() {
 
             {/* Photo */}
             <div className="md:col-span-1">
-              <div className="aspect-[3/4] bg-stone-200 rounded-xl w-full flex items-center justify-center text-stone-400 text-xs tracking-wide">
-                Photo
-              </div>
+              <img
+                src="/sara.jpg"
+                alt="Sara Siqueira"
+                className="w-full rounded-xl object-cover"
+                style={{ aspectRatio: '3/4' }}
+              />
             </div>
 
             {/* Bio text */}

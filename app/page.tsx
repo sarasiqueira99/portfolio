@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Nav from './components/Nav'
 import WorkGrid, { Project } from './components/WorkGrid'
+import HeroCanvas from './components/HeroCanvas'
 
 const projects: Project[] = [
   {
@@ -34,7 +35,9 @@ export default function Home() {
       <main className="flex-1">
 
         {/* Hero */}
-        <section className="max-w-5xl mx-auto px-8 pt-20 pb-20">
+        <section className="relative overflow-hidden px-8 pt-20 pb-20" style={{ minHeight: '92vh' }}>
+          <HeroCanvas />
+          <div className="relative z-10 max-w-5xl mx-auto">
           <h1
             className="leading-snug mb-6"
             style={{ fontFamily: 'var(--font-lora), Georgia, serif', fontWeight: 400, color: '#2d4a3c', fontSize: '2rem' }}
@@ -61,6 +64,7 @@ export default function Home() {
             >
               About me
             </Link>
+          </div>
           </div>
         </section>
 
