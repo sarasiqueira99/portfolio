@@ -6,6 +6,7 @@ export interface Project {
   description: string
   tags: string[]
   placeholder: string
+  image?: string
 }
 
 export default function WorkGrid({ projects }: { projects: Project[] }) {
@@ -16,7 +17,11 @@ export default function WorkGrid({ projects }: { projects: Project[] }) {
 
           {/* Image area */}
           <div className={`w-full aspect-[4/3] ${p.placeholder} overflow-hidden`}>
-            <div className="w-full h-full transition-transform duration-500 group-hover:scale-[1.03]" />
+            {p.image ? (
+              <img src={p.image} alt={p.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
+            ) : (
+              <div className="w-full h-full transition-transform duration-500 group-hover:scale-[1.03]" />
+            )}
           </div>
 
           {/* Card body */}

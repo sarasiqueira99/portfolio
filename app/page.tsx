@@ -17,6 +17,7 @@ const projects: Project[] = [
     description: 'Mixed-methods field study defining company-wide quality benchmarks at Niantic Labs.',
     tags: ['Mixed Methods', 'Field Study', 'AR / Spatial Computing'],
     placeholder: 'bg-stone-300',
+    image: '/ar-casestudy.png',
   },
   {
     slug: 'chi-paper',
@@ -24,6 +25,7 @@ const projects: Project[] = [
     description: 'Literature review and CHI paper on what drives users to contribute to platforms like Pokémon GO.',
     tags: ['Literature Review', 'Crowdsourcing', 'CHI'],
     placeholder: 'bg-stone-200',
+    image: '/chi-casestudy.png',
   },
 ]
 
