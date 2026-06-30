@@ -41,7 +41,7 @@ export default function ChiPaper() {
 
         {/* Cover image */}
         <div className="max-w-5xl mx-auto px-8 mb-0">
-          <div className="w-full aspect-[21/9] bg-stone-200 rounded-xl" />
+          <img src="/chi-casestudy.png" alt="CHI Paper" className="w-full aspect-[21/9] object-cover rounded-xl" />
         </div>
 
         {/* Meta strip */}
