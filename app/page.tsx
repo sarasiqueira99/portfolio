@@ -89,9 +89,6 @@ export default function Home() {
       <footer className="border-t border-stone-200/60" style={{ backgroundColor: '#2d4a3c' }}>
         <div className="max-w-5xl mx-auto px-8 py-8 flex items-center justify-between text-xs" style={{ color: '#a8c9b5' }}>
           <span>Sara Siqueira</span>
-          <a href="mailto:hello@sarasiqueira.com" className="hover:text-white transition-colors">
-            hello@sarasiqueira.com
-          </a>
         </div>
       </footer>
     </>
